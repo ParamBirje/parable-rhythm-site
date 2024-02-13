@@ -3,7 +3,7 @@
 
 function App() {
   return (
-    <main>
+    <main className=" font-poppins">
       <h1 className="text-3xl font-bold">Parable Rhythm</h1>
     </main>
   );
