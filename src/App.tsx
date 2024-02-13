@@ -3,7 +3,7 @@
 
 function App() {
   return (
-    <main className="max-w-[1280px] mx-auto p-4 bg-primary text-white font-poppins min-h-screen flex flex-col gap-5">
+    <main className="max-w-[1280px] mx-auto p-4 bg-primary text-white font-monty min-h-screen flex flex-col gap-5">
       {/* Hero */}
       <section
         id="hero"

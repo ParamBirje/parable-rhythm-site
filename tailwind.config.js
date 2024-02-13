@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "serif"]
+        monty: ["Montserrat", "serif"]
       },
       colors: {
         primary: {
