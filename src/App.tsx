@@ -3,12 +3,23 @@
 
 function App() {
   return (
-    <main className="bg-primary text-white font-poppins">
+    <main className="max-w-[1280px] mx-auto p-4 bg-primary text-white font-poppins min-h-screen flex flex-col gap-5">
       {/* Hero */}
-      <section id="hero">
-        <div>ﮩ٨ـ</div>
-        <h1 className="text-3xl font-bold">Parable Rhythm</h1>
-        <h2>A crime thriller game powered by A.I.</h2>
+      <section
+        id="hero"
+        className="uppercase flex flex-col items-center text-center"
+      >
+        <div>
+          {/* Logo */}
+          <div className="fixed top-0 left-[40%] opacity-20 text-[10.5rem] tracking-tighter">
+            ﮩ٨ـ
+          </div>
+
+          <h1 className="text-4xl tracking-[.5em]">Parable Rhythm</h1>
+          <h2 className="font-thin text-3xl tracking-[.2em]">
+            A crime thriller game powered by <span>A.I.</span>
+          </h2>
+        </div>
 
         <div>
           <p>Cases Opening On</p>
