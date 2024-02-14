@@ -61,9 +61,9 @@ function App() {
         </section>
 
         {/* Developed By */}
-        <section>
-          <h3>
-            Devel<span>o</span>ped By
+        <section id="developed_by">
+          <h3 className="font-bold tracking-[0.25em] uppercase text-lg text-center">
+            Devel<span className="text-secondary">o</span>ped By
           </h3>
           <div>{/* Developer Card */}</div>
         </section>
