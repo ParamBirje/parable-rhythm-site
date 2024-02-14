@@ -1,7 +1,13 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import {
+  GithubLogo,
+  TwitterLogo,
+  LinkedinLogo,
+  ArrowUpRight,
+} from "@phosphor-icons/react";
 
 function App() {
+  const socialIconSize = 25;
+
   return (
     <main className="bg-primary text-white font-monty min-h-screen">
       <div className="max-w-[900px] mx-auto p-4 flex flex-col gap-20">
@@ -61,11 +67,49 @@ function App() {
         </section>
 
         {/* Developed By */}
-        <section id="developed_by">
+        <section id="developed_by" className="flex flex-col gap-7">
           <h3 className="font-bold tracking-[0.25em] uppercase text-lg text-center">
             Devel<span className="text-secondary">o</span>ped By
           </h3>
-          <div>{/* Developer Card */}</div>
+          <div className="w-3/4 mx-auto rounded-md bg-primary-light p-4 flex gap-5">
+            <div className="bg-[url('./assets/cropped_profile_pic.jpg')] bg-cover h-[8em] w-[8em] rounded-md" />
+
+            <div className="flex flex-col justify-between">
+              <div className="tracking-wide">
+                <h4 className="text-xl font-medium tracking-normal">
+                  Param Birje
+                </h4>
+                <p className="opacity-80">
+                  Fullstack Engineer | AWS Certified Solutions Architect
+                </p>
+                <span className="opacity-80">Gamer by night. (or noon)</span>
+              </div>
+
+              {/* Socials */}
+              <div className="flex items-center justify-between">
+                <a
+                  href="https://parameater.co"
+                  target="_blank"
+                  className="flex items-center gap-1 hover:underline underline-offset-2"
+                >
+                  <p>parameater.co</p>
+                  <ArrowUpRight size={15} />
+                </a>
+
+                <div className="flex gap-3 items-center">
+                  <a>
+                    <GithubLogo size={socialIconSize} />
+                  </a>
+                  <a>
+                    <TwitterLogo size={socialIconSize} />
+                  </a>
+                  <a>
+                    <LinkedinLogo size={socialIconSize} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* CTA */}
