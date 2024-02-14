@@ -42,16 +42,22 @@ function App() {
         </section>
 
         {/* Synopsis */}
-        <section id="synopsis">
-          <h3>
-            Syn<span>o</span>psis
+        <section id="synopsis" className="flex flex-col gap-7 text-center">
+          <h3 className="font-bold tracking-[0.25em] uppercase text-lg">
+            Syn<span className="text-secondary">o</span>psis
           </h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Elementum aenean tempor
-            aliquam non donec. Orci nunc lorem tincidunt viverra amet diam dui
-            dolor mus. Viverra ac sed ac ullamcorper gravida sed facilisi. Risus
-            semper feugiat duis aliquet enim ipsum eu pellentesque.
-          </p>
+          <div className="w-3/4 mx-auto tracking-wide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Elementum aenean tempor
+              aliquam non donec. Orci nunc lorem tincidunt viverra amet diam dui
+              dolor mus. Feugiat duis aliquet enim ipsum eu pellentesque.
+            </p>
+            <br />
+            <p>
+              Viverra ac sed ac ullamcorper gravida sed facilisi. Risus semper
+              feugiat duis aliquet enim ipsum eu pellentesque.
+            </p>
+          </div>
         </section>
 
         {/* Developed By */}
