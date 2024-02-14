@@ -76,11 +76,13 @@ function App() {
           <h3 className="font-bold tracking-[0.25em] uppercase text-lg text-center">
             Devel<span className="text-secondary">o</span>ped By
           </h3>
-          <div className="w-3/4 mx-auto rounded-md bg-primary-light p-4 flex gap-5">
-            <div className="bg-[url('./assets/cropped_profile_pic.jpg')] bg-cover h-[8em] w-[8em] rounded-md" />
 
-            <div className="flex flex-col justify-between">
-              <div className="tracking-wide">
+          {/* Profile Card */}
+          <div className="w-3/4 mx-auto rounded-md bg-primary-light p-4 flex flex-col md:flex-row gap-5">
+            <div className="bg-[url('./assets/cropped_profile_pic.jpg')] bg-cover h-[8em] w-[8em] rounded-md mx-auto md:mx-0" />
+
+            <div className="flex flex-col justify-between gap-5 md:gap-0">
+              <div className="tracking-wide text-center md:text-left flex flex-col gap-3 md:gap-0">
                 <h4 className="text-xl font-medium tracking-normal">
                   Param Birje
                 </h4>
@@ -91,7 +93,7 @@ function App() {
               </div>
 
               {/* Socials */}
-              <div className="flex items-center justify-between">
+              <div className="flex flex-col md:flex-row items-center justify-between gap-5 md:gap-0">
                 <a
                   href="https://parameater.co"
                   target="_blank"
