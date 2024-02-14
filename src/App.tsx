@@ -114,13 +114,33 @@ function App() {
         </section>
 
         {/* CTA */}
-        <section id="call_to_action">
-          <p>Even the obvious will fade in panic</p>
-          <p>
-            29<span>.</span>02<span>.</span>2024
+        <section
+          id="call_to_action"
+          className="my-14 text-center flex flex-col gap-3"
+        >
+          <div className="flex justify-center items-start opacity-90 text-4xl tracking-tight select-none z-[0]">
+            <p>ﮩ٨ـ</p>
+          </div>
+          <p className="font-extralight text-2xl tracking-[.25em] uppercase">
+            Even the obvious will fade in panic
+          </p>
+          <p className="text-3xl font-bold tracking-[0.25em] relative left-1">
+            29<span className="text-secondary">.</span>02
+            <span className="text-secondary">.</span>2024
           </p>
         </section>
       </div>
+
+      <footer className="text-center opacity-80 pt-20 pb-10">
+        Built with ♥️ by{" "}
+        <a
+          href="https://parameater.co"
+          target="_blank"
+          className="hover:underline"
+        >
+          Param Birje
+        </a>
+      </footer>
     </main>
   );
 }
