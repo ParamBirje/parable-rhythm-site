@@ -4,6 +4,7 @@ import {
   LinkedinLogo,
   ArrowUpRight,
 } from "@phosphor-icons/react";
+import { socialLinks } from "./components/links";
 
 function App() {
   const socialIconSize = 25;
@@ -97,13 +98,13 @@ function App() {
                 </a>
 
                 <div className="flex gap-3 items-center">
-                  <a>
+                  <a href={socialLinks.github}>
                     <GithubLogo size={socialIconSize} />
                   </a>
-                  <a>
+                  <a href={socialLinks.twitter}>
                     <TwitterLogo size={socialIconSize} />
                   </a>
-                  <a>
+                  <a href={socialLinks.linkedin}>
                     <LinkedinLogo size={socialIconSize} />
                   </a>
                 </div>
