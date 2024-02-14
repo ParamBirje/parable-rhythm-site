@@ -53,16 +53,20 @@ function App() {
           <h3 className="font-bold tracking-[0.25em] uppercase text-lg">
             Syn<span className="text-secondary">o</span>psis
           </h3>
-          <div className="w-3/4 mx-auto tracking-wide">
+          <div className="w-3/4 mx-auto tracking-wider leading-7 opacity-90">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Elementum aenean tempor
-              aliquam non donec. Orci nunc lorem tincidunt viverra amet diam dui
-              dolor mus. Feugiat duis aliquet enim ipsum eu pellentesque.
+              A crime thriller set in a modern town of Genai (pronounced
+              gun-aa-ee), where every case takes a different turn depending on
+              how you choose to solve crimes. Every action has a consequence and
+              will drive the case into an unexpected pattern of events.
             </p>
             <br />
             <p>
-              Viverra ac sed ac ullamcorper gravida sed facilisi. Risus semper
-              feugiat duis aliquet enim ipsum eu pellentesque.
+              You play as a veteran detective who has now been assigned a desk
+              job at the headquarters. The Police Department assigns cases for
+              you, to solve them through their software. Your task is to
+              communicate and collaborate with the lead in-charge of cases,
+              Inspector Neel Ray.
             </p>
           </div>
         </section>
@@ -80,10 +84,10 @@ function App() {
                 <h4 className="text-xl font-medium tracking-normal">
                   Param Birje
                 </h4>
-                <p className="opacity-80">
-                  Fullstack Engineer | AWS Certified Solutions Architect
-                </p>
-                <span className="opacity-80">Gamer by night. (or noon)</span>
+                <div className="opacity-80">
+                  <p>Fullstack Engineer | AWS Certified Solutions Architect</p>
+                  <span>Gamer by night. (or noon)</span>
+                </div>
               </div>
 
               {/* Socials */}
