@@ -98,13 +98,13 @@ function App() {
                 </a>
 
                 <div className="flex gap-3 items-center">
-                  <a href={socialLinks.github}>
+                  <a href={socialLinks.github} target="_blank">
                     <GithubLogo size={socialIconSize} />
                   </a>
-                  <a href={socialLinks.twitter}>
+                  <a href={socialLinks.twitter} target="_blank">
                     <TwitterLogo size={socialIconSize} />
                   </a>
-                  <a href={socialLinks.linkedin}>
+                  <a href={socialLinks.linkedin} target="_blank">
                     <LinkedinLogo size={socialIconSize} />
                   </a>
                 </div>
