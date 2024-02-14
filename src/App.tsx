@@ -4,18 +4,18 @@
 function App() {
   return (
     <main className="bg-primary text-white font-monty min-h-screen">
-      <div className="max-w-[900px] mx-auto p-4 flex flex-col gap-5">
+      <div className="max-w-[900px] mx-auto p-4 flex flex-col gap-20">
         {/* Hero */}
         <section
           id="hero"
           className="uppercase flex flex-col gap-20 items-center text-center"
         >
           {/* Logo */}
-          <div className="fixed -top-[5vh] flex justify-center items-start opacity-5 text-[18rem] tracking-tight">
+          <div className="absolute -top-[5vh] flex justify-center items-start opacity-5 text-[18rem] tracking-tight select-none z-[0]">
             <p>ﮩ٨ـ</p>
           </div>
 
-          <div className="flex flex-col gap-2 pt-[18vh]">
+          <div className="flex flex-col gap-2 pt-[18vh] z-[1]">
             <h1 className="text-4xl tracking-[.3em]">Parable Rhythm</h1>
             <h2 className="font-thin text-[1.21rem] tracking-[.25em]">
               A crime thriller game powered by{" "}
@@ -34,8 +34,10 @@ function App() {
 
         {/* Trailer Video */}
         <section id="trailer">
-          <div className="">
-            <button>Watch</button>
+          <div className="h-[25em] w-3/4 mx-auto bg-[url('./assets/detective.jpg')] bg-center bg-cover flex justify-center items-center rounded-sm">
+            <button className="uppercase tracking-widest font-light">
+              Trailer Coming Soon
+            </button>
           </div>
         </section>
 
