@@ -5,6 +5,7 @@ import {
   ArrowUpRight,
 } from "@phosphor-icons/react";
 import { socialLinks } from "./components/links";
+import Button from "./components/Button";
 
 function App() {
   const socialIconSize = 25;
@@ -30,12 +31,9 @@ function App() {
             </h2>
           </div>
 
-          <div className="flex flex-col gap-2">
-            <p className="font-medium tracking-widest">Cases Opening On</p>
-            <p className="text-2xl font-bold tracking-[0.25em] relative left-1">
-              29<span className="text-secondary">.</span>02
-              <span className="text-secondary">.</span>2024
-            </p>
+          <div className="flex flex-col gap-3">
+            <p className="font-medium tracking-widest">Play Now On</p>
+            <Button href="https://google.com">AWS PartyRock</Button>
           </div>
         </section>
 
@@ -127,13 +125,14 @@ function App() {
           <div className="flex justify-center items-start opacity-90 text-4xl tracking-tight select-none z-[0]">
             <p>ﮩ٨ـ</p>
           </div>
+
           <p className="font-extralight text-2xl tracking-[.25em] uppercase">
             Even the obvious will fade in panic
           </p>
-          <p className="text-3xl font-bold tracking-[0.25em] relative left-1">
-            29<span className="text-secondary">.</span>02
-            <span className="text-secondary">.</span>2024
-          </p>
+
+          <div>
+            <Button href="https://google.com">Play Now</Button>
+          </div>
         </section>
       </div>
 
