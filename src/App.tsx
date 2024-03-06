@@ -3,6 +3,7 @@ import {
   TwitterLogo,
   LinkedinLogo,
   ArrowUpRight,
+  Play,
 } from "@phosphor-icons/react";
 import { socialLinks } from "./components/links";
 import Button from "./components/Button";
@@ -39,11 +40,9 @@ function App() {
 
         {/* Trailer Video */}
         <section id="trailer">
-          <div className="h-[25em] w-3/4 mx-auto bg-[url('./assets/detective.jpg')] bg-center bg-cover flex justify-center items-center rounded-sm">
-            <button className="uppercase tracking-widest font-light">
-              Trailer Coming Soon
-            </button>
-          </div>
+          <button className="hover:scale-105 duration-200 h-[25em] w-3/4 mx-auto bg-[url('./assets/thumb2.png')] bg-center bg-cover flex justify-center items-center rounded-sm">
+            <Play weight="fill" className="text-red-400 shadow-xl" size={100} />
+          </button>
         </section>
 
         {/* Synopsis */}
