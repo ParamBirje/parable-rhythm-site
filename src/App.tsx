@@ -3,7 +3,6 @@ import {
   TwitterLogo,
   LinkedinLogo,
   ArrowUpRight,
-  Play,
 } from "@phosphor-icons/react";
 import { socialLinks } from "./components/links";
 import Button from "./components/Button";
@@ -34,15 +33,25 @@ function App() {
 
           <div className="flex flex-col gap-3">
             <p className="font-medium tracking-widest">Play Now On</p>
-            <Button href="https://google.com">AWS PartyRock</Button>
+            <Button>AWS PartyRock</Button>
           </div>
         </section>
 
         {/* Trailer Video */}
         <section id="trailer">
-          <button className="hover:scale-105 duration-200 h-[25em] w-3/4 mx-auto bg-[url('./assets/thumb2.png')] bg-center bg-cover flex justify-center items-center rounded-sm">
+          {/* <button className="hover:scale-105 duration-200 h-[25em] w-3/4 mx-auto bg-[url('./assets/thumb2.png')] bg-center bg-cover flex justify-center items-center rounded-sm">
             <Play weight="fill" className="text-red-400 shadow-xl" size={100} />
-          </button>
+          </button> */}
+          <iframe
+            className="h-[25em] w-3/4 mx-auto"
+            // width="560"
+            // height="315"
+            src="https://www.youtube.com/embed/mM8Ow1fC4b4?si=Y3jZkcUFI7KKbcfV"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
         </section>
 
         {/* Synopsis */}
@@ -130,7 +139,7 @@ function App() {
           </p>
 
           <div>
-            <Button href="https://google.com">Play Now</Button>
+            <Button>Play Now</Button>
           </div>
         </section>
       </div>
