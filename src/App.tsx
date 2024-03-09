@@ -68,7 +68,7 @@ function App() {
             </p>
             <br />
             <p>
-              You play as a veteran detective who has now been assigned a desk
+              You play as a newly assigned detective who has been assigned a desk
               job at the headquarters. The Police Department assigns cases for
               you, to solve them through their software. Your task is to
               communicate and collaborate with the lead in-charge of cases,
