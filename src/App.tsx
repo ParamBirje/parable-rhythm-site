@@ -43,7 +43,7 @@ function App() {
             <Play weight="fill" className="text-red-400 shadow-xl" size={100} />
           </button> */}
           <iframe
-            className="h-[25em] w-3/4 mx-auto"
+            className="h-[40vh] w-3/4 mx-auto"
             // width="560"
             // height="315"
             src="https://www.youtube.com/embed/mM8Ow1fC4b4?si=Y3jZkcUFI7KKbcfV"
