@@ -124,6 +124,36 @@ function App() {
             </div>
           </div>
 
+          {/* Devpost Blog Link */}
+          <div className="w-3/4 mx-auto rounded-md bg-primary-light p-4 flex flex-col md:flex-row gap-5">
+            <div className="bg-[url('https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/797/792/datas/medium.jpg')] bg-cover bg-center h-[5em] w-[8em] rounded-md mx-auto md:mx-0" />
+
+            <div className="flex flex-col justify-between gap-5 md:gap-0">
+              <div className="tracking-wide text-center md:text-left flex flex-col gap-3 md:gap-0">
+                <a href="https://devpost.com/software/test-kbdsc2">
+                  <h4 className="text-md font-medium tracking-normal">
+                    Inspiration, Challenges and Achievements of Parable Rhythm
+                  </h4>
+                </a>
+              </div>
+
+              {/* Socials */}
+              <div className="flex flex-col md:flex-row items-center justify-between gap-5 md:gap-0">
+                <a
+                  href="https://community.aws/content/2c4mtEtbFQKoiQvy9TMwXs0xHiN"
+                  target="_blank"
+                  className="flex items-center gap-1 hover:underline underline-offset-2"
+                >
+                  <p>Devpost</p>
+                  <ArrowUpRight size={15} />
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+
+
           {/* Blog Link */}
           <div className="w-3/4 mx-auto rounded-md bg-primary-light p-4 flex flex-col md:flex-row gap-5">
             <div className="bg-[url('https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2023/02/16/aws_bp_primarylogo_01.png')] bg-cover bg-center h-[5em] w-[8em] rounded-md mx-auto md:mx-0" />
