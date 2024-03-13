@@ -130,7 +130,7 @@ function App() {
 
             <div className="flex flex-col justify-between gap-5 md:gap-0">
               <div className="tracking-wide text-center md:text-left flex flex-col gap-3 md:gap-0">
-                <a href="https://devpost.com/software/test-kbdsc2">
+                <a href="https://devpost.com/software/test-kbdsc2" target="_blank">
                   <h4 className="text-md font-medium tracking-normal">
                     Inspiration, Challenges and Achievements of Parable Rhythm
                   </h4>
@@ -160,7 +160,7 @@ function App() {
 
             <div className="flex flex-col justify-between gap-5 md:gap-0">
               <div className="tracking-wide text-center md:text-left flex flex-col gap-3 md:gap-0">
-                <a href="https://community.aws/content/2c4mtEtbFQKoiQvy9TMwXs0xHiN">
+                <a href="https://community.aws/content/2c4mtEtbFQKoiQvy9TMwXs0xHiN" target="_blank">
                   <h4 className="text-md font-medium tracking-normal">
                     Gauging the Community Impact and Envisioning Real World Architecture
                   </h4>
