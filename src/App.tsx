@@ -140,7 +140,7 @@ function App() {
               {/* Socials */}
               <div className="flex flex-col md:flex-row items-center justify-between gap-5 md:gap-0">
                 <a
-                  href="https://community.aws/content/2c4mtEtbFQKoiQvy9TMwXs0xHiN"
+                  href="https://devpost.com/software/test-kbdsc2"
                   target="_blank"
                   className="flex items-center gap-1 hover:underline underline-offset-2"
                 >
