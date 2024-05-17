@@ -23,7 +23,7 @@ function App() {
             </h2>
           </div>
 
-          <img src={awards} />
+          <img src={awards} alt="aws-partyrock-hackathon-first-place-param-birje-awards" />
 
           <div className="flex flex-col gap-3">
             <p className="font-medium tracking-widest">Play Now On</p>
