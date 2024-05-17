@@ -1,11 +1,7 @@
-import {
-  GithubLogo,
-  TwitterLogo,
-  LinkedinLogo,
-  ArrowUpRight,
-} from "@phosphor-icons/react";
+import { GithubLogo, TwitterLogo, LinkedinLogo, ArrowUpRight } from "@phosphor-icons/react";
 import { socialLinks } from "./components/links";
 import Button from "./components/Button";
+import awards from "./assets/awards.png";
 
 function App() {
   const socialIconSize = 25;
@@ -14,10 +10,7 @@ function App() {
     <main className="bg-primary text-white font-monty min-h-screen">
       <div className="max-w-[900px] mx-auto p-4 flex flex-col gap-20">
         {/* Hero */}
-        <section
-          id="hero"
-          className="uppercase flex flex-col gap-20 items-center text-center"
-        >
+        <section id="hero" className="uppercase flex flex-col gap-20 items-center text-center">
           {/* Logo */}
           <div className="absolute -top-[5vh] flex justify-center items-start opacity-5 text-[18rem] tracking-tight select-none z-[0]">
             <p>ﮩ٨ـ</p>
@@ -26,10 +19,11 @@ function App() {
           <div className="flex flex-col gap-2 pt-[18vh] z-[1]">
             <h1 className="text-4xl tracking-[.3em]">Parable Rhythm</h1>
             <h2 className="font-thin text-[1.21rem] tracking-[.25em]">
-              A crime thriller game powered by{" "}
-              <span className="font-bold">A.I.</span>
+              A crime thriller game powered by <span className="font-bold">A.I.</span>
             </h2>
           </div>
+
+          <img src={awards} />
 
           <div className="flex flex-col gap-3">
             <p className="font-medium tracking-widest">Play Now On</p>
@@ -61,18 +55,16 @@ function App() {
           </h3>
           <div className="w-3/4 mx-auto tracking-wider leading-7 opacity-90">
             <p>
-              A crime thriller set in a modern town of Genai (pronounced
-              gun-aa-ee), where every case takes a different turn depending on
-              how you choose to solve crimes. Every action has a consequence and
-              will drive the case into an unexpected pattern of events.
+              A crime thriller set in a modern town of Genai (pronounced gun-aa-ee), where every
+              case takes a different turn depending on how you choose to solve crimes. Every action
+              has a consequence and will drive the case into an unexpected pattern of events.
             </p>
             <br />
             <p>
-              You play as a newly assigned detective who has been assigned a desk
-              job at the headquarters. The Police Department assigns cases for
-              you, to solve them through their software. Your task is to
-              communicate and collaborate with the lead in-charge of cases,
-              Inspector Neel Ray.
+              You play as a newly assigned detective who has been assigned a desk job at the
+              headquarters. The Police Department assigns cases for you, to solve them through their
+              software. Your task is to communicate and collaborate with the lead in-charge of
+              cases, Inspector Neel Ray.
             </p>
           </div>
         </section>
@@ -89,9 +81,7 @@ function App() {
 
             <div className="flex flex-col justify-between gap-5 md:gap-0">
               <div className="tracking-wide text-center md:text-left flex flex-col gap-3 md:gap-0">
-                <h4 className="text-xl font-medium tracking-normal">
-                  Param Birje
-                </h4>
+                <h4 className="text-xl font-medium tracking-normal">Param Birje</h4>
                 <div className="opacity-80">
                   <p>Fullstack Engineer | AWS Certified Solutions Architect</p>
                   <span>Gamer by night. (or noon)</span>
@@ -147,12 +137,9 @@ function App() {
                   <p>Devpost</p>
                   <ArrowUpRight size={15} />
                 </a>
-
               </div>
             </div>
           </div>
-
-
 
           {/* Blog Link */}
           <div className="w-3/4 mx-auto rounded-md bg-primary-light p-4 flex flex-col md:flex-row gap-5">
@@ -177,17 +164,13 @@ function App() {
                   <p>community.aws</p>
                   <ArrowUpRight size={15} />
                 </a>
-
               </div>
             </div>
           </div>
         </section>
 
         {/* CTA */}
-        <section
-          id="call_to_action"
-          className="my-14 text-center flex flex-col gap-3"
-        >
+        <section id="call_to_action" className="my-14 text-center flex flex-col gap-3">
           <div className="flex justify-center items-start opacity-90 text-4xl tracking-tight select-none z-[0]">
             <p>ﮩ٨ـ</p>
           </div>
@@ -204,11 +187,7 @@ function App() {
 
       <footer className="text-center opacity-80 pt-20 pb-10">
         Built with ♥️ by{" "}
-        <a
-          href="https://parameater.co"
-          target="_blank"
-          className="hover:underline"
-        >
+        <a href="https://parameater.co" target="_blank" className="hover:underline">
           Param Birje
         </a>
       </footer>
