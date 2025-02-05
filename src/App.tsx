@@ -91,11 +91,11 @@ function App() {
               {/* Socials */}
               <div className="flex flex-col md:flex-row items-center justify-between gap-5 md:gap-0">
                 <a
-                  href="https://parameater.co"
+                  href="https://parambirje.com"
                   target="_blank"
                   className="flex items-center gap-1 hover:underline underline-offset-2"
                 >
-                  <p>parameater.co</p>
+                  <p>parambirje.com</p>
                   <ArrowUpRight size={15} />
                 </a>
 
